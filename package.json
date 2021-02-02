@@ -1,6 +1,6 @@
 {
   "name": "react-twitter-gifpicker",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "React twitter style gifpicker for your React app",
   "main": "GifPicker.js",
   "scripts": {
