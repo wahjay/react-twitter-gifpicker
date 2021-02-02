@@ -9,7 +9,7 @@ Responsive Gifpicker for your React app
 
 ```
 import { useState } from 'react';
-import GifPicker from './GifPicker';
+import GifPicker from 'react-twitter-gifpicker';
 
 function App() {
   const [open, setOpen] = useState(false);
