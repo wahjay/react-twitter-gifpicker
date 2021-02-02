@@ -2,6 +2,13 @@
 
 Responsive Gifpicker for your React app
 
+![](gifpicker-pic2.png)
+![](gifpicker-pic1.png)
+
+# Prerequisite
+
+Request a free api key @ https://support.giphy.com/hc/en-us/articles/360020283431-Request-A-GIPHY-API-Key
+
 
 # Installation
 
@@ -50,6 +57,9 @@ Props
 | onPickClose | Close the gifpicker when a gif is cliked | Boolean | false | onPickClose={true} |
 | onClose | The function to call when the gifpick is about to close | Func | none | onClose={() => setClose(true)} |
 | onGifClick | The function to call when a gif is clicked. It takes two arguments: (gif: Object, e: event) | Func | none| const onPickGif = (gif, e) => { console.log(gif) } |
+
+__Note:__ onClose() relies on the external setClose() to close the gifpicker.
+
 
 ```
 Gif Object = {
