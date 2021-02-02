@@ -49,6 +49,4 @@ Props
 | open | Determine if the gifpicker should be opened | Boolean | false | opne={true} |
 | onPickClose | Close the gifpicker when a gif is cliked | Boolean | false | onPickClose={true} |
 | onClose | The function to call when the gifpick is about to close | Func | none | onClose={() => setClose(true)} |
-| onGifClick | The function to call when a gif is clicked. It takes two arguments: (gif: Object, e: event) | Func | none| const onPickGif = (gif, e) => {
-  console.log(gif)
-} |
+| onGifClick | The function to call when a gif is clicked. It takes two arguments: (gif: Object, e: event) | Func | none| const onPickGif = (gif, e) => { console.log(gif)} |
