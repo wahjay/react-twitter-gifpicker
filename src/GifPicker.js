@@ -1,6 +1,6 @@
 import React, { useState, useEffect, useRef } from 'react';
 import useOutsideClick from './useOutsideClick';
-import { Dimmer, Loader } from 'semantic-ui-react';
+import { CircularProgress } from '@material-ui/core';
 import { default as BackIcon } from '@material-ui/icons/KeyboardBackspace';
 import CloseIcon from '@material-ui/icons/Close';
 import SearchIcon from '@material-ui/icons/Search';
@@ -174,10 +174,23 @@ function GifPicker({
 
   let gifpickerContent;
   if(loading || categories.length === 0) {
-    gifpickerContent = (
-      <Dimmer active>
-        <Loader size='large' style={{ color: 'white' }}>{errMsg}</Loader>
-      </Dimmer>
+      gifpickerContent = (
+        <div
+          style={{
+            alignSelf: 'center',
+            margin: 'auto 0',
+            width: '100%',
+            height: '100%',
+            backgroundColor: '#020104',
+            display: 'flex',
+            flexDirection: 'column',
+            justifyContent: 'center',
+            alignItems: 'center'
+          }}
+        >
+          <CircularProgress size={50} style={{ color: 'white' }} />
+          <span style={{ marginTop: '10px', color: 'white' }}>{errMsg}</span>
+        </div>
     );
   }
   else if(search) {
