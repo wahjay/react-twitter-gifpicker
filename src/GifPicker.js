@@ -181,7 +181,7 @@ function GifPicker({
     );
   }
   else if(search) {
-    const searchFn = (offset: number) => gf.search(search, { sort: 'relevant', offset, limit: 20 });
+    const searchFn = (offset) => gf.search(search, { sort: 'relevant', offset, limit: 20 });
     gifpickerContent = (
       <div className="gifpicker-categories-wrapper">
         <Grid

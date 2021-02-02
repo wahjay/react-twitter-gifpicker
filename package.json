@@ -2,8 +2,9 @@
   "name": "react-twitter-gifpicker",
   "version": "1.0.4",
   "description": "React twitter style gifpicker for your React app",
-  "main": "GifPicker.js",
+  "main": "./lib/GifPicker.js",
   "scripts": {
+    "build": "webpack",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -29,6 +30,10 @@
     "url": "https://github.com/wahjay/react-twitter-gifpicker/issues"
   },
   "homepage": "https://github.com/wahjay/react-twitter-gifpicker#readme",
+  "peerDependencies": {
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1"
+  },
   "dependencies": {
     "@babel/plugin-syntax-dynamic-import": "^7.8.3",
     "@giphy/js-fetch-api": "^2.1.0",
@@ -37,5 +42,16 @@
     "@material-ui/icons": "^4.11.2",
     "lodash": "^4.17.20",
     "semantic-ui-react": "^2.0.3"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.12.10",
+    "@babel/preset-env": "^7.12.11",
+    "@babel/preset-react": "^7.12.10",
+    "babel-loader": "^8.0.0",
+    "css-loader": "^5.0.1",
+    "path": "^0.12.7",
+    "style-loader": "^2.0.0",
+    "webpack": "^5.19.0",
+    "webpack-cli": "^4.4.0"
   }
 }
