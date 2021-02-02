@@ -2,7 +2,7 @@
   "name": "react-twitter-gifpicker",
   "version": "1.0.3",
   "description": "React twitter style gifpicker for your React app",
-  "main": "./build/GifPicker.js",
+  "main": "GifPicker.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
