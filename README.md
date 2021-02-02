@@ -2,8 +2,9 @@
 
 Responsive Gifpicker for your React app
 
-![](gifpicker-pic2.png)
-![](gifpicker-pic1.png)
+
+<img src="gifpicker-pic2.png" alt="pic2" width="600"/>
+<img src="gifpicker-pic1.png" alt="pic1" width="600"/>
 
 # Prerequisite
 
