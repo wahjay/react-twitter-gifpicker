@@ -1,0 +1,40 @@
+{
+  "name": "react-twitter-gifpicker",
+  "version": "1.0.0",
+  "description": "React twitter style gifpicker for your React app",
+  "main": "GifPicker.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wahjay/react-twitter-gifpicker.git"
+  },
+  "keywords": [
+    "giphy",
+    "gif",
+    "gifpicker",
+    "react",
+    "meme",
+    "gifchoser",
+    "memepicker",
+    "memefinder",
+    "picker",
+    "twitter-gifpicker",
+    "twitter-meme"
+  ],
+  "author": "Howard Tan",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/wahjay/react-twitter-gifpicker/issues"
+  },
+  "homepage": "https://github.com/wahjay/react-twitter-gifpicker#readme",
+  "dependencies": {
+    "@giphy/js-fetch-api": "^2.1.0",
+    "@giphy/react-components": "^2.1.3",
+    "@material-ui/core": "^4.11.3",
+    "@material-ui/icons": "^4.11.2",
+    "lodash": "^4.17.20",
+    "semantic-ui-react": "^2.0.3"
+  }
+}

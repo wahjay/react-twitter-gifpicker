@@ -49,6 +49,23 @@ Props
 | open | Determine if the gifpicker should be opened | Boolean | false | opne={true} |
 | onPickClose | Close the gifpicker when a gif is cliked | Boolean | false | onPickClose={true} |
 | onClose | The function to call when the gifpick is about to close | Func | none | onClose={() => setClose(true)} |
-| onGifClick | The function to call when a gif is clicked. It takes two arguments: (gif: Object, e: event) | Func | none| const onPickGif = (gif, e) => {
-  console.log(gif)
-} |
+| onGifClick | The function to call when a gif is clicked. It takes two arguments: (gif: Object, e: event) | Func | none| const onPickGif = (gif, e) => { console.log(gif) } |
+
+```
+Gif Object = {
+  ...,
+  images: {
+    480w_still: {height, width, size, url},
+    downsized: {height, width, size, url},
+    downsized_large: {height, width, size, url},
+    downsized_medium: {height, width, size, url},
+    downsized_small: {height, width, size, url},
+    downsized_still: {height, width, size, url},
+    ...,
+    original_mp4: {height, width, mp4_size, mp4},
+    preview: {height, width, mp4_size, mp4},
+    preview_gif: {height, width, size, url}
+  },
+  ...
+}
+```
